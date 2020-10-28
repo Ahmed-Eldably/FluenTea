@@ -30,6 +30,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - toodles
 
 - intent: affirm
   examples: |
@@ -90,3 +91,98 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: movie_watching
+  examples: |
+    - do you like watching movies?
+    - do you love watching movies?
+    - do you enjoy movies?
+    - do you like going to the cinema?
+    - do you go to the cinemas?
+    - do you watch movies?
+    - are you interested in watching movies?
+
+- intent: users_movie_watching
+  examples: |
+  - I love them
+  - of course I do
+  - me too
+
+- intent: favorite_movie
+  examples: |
+    - what’s your favorite movie?
+    - what movies do you like?
+    - do you have a favorite movie?
+    - what do you like to watch?
+
+- intent: users_favorite_movie
+  examples: |
+    - my favorite movie is {}
+    - I love {}
+    - I like {}
+    - I enjoyed watching {}
+    - I love anything that Will Smith is in
+
+- intent: least_favorite_movie
+  examples: |
+    - are there any movies you hate?
+    - are there any movies you don’t like?
+    - what’s your least favorite movie?
+    - do you hate any movies?
+    - is there a movie you didn’t like?
+
+- intent: users_least_favorite_movie
+  examples: |
+    - My least favorite movie is {}
+    - I hated {}
+    - I hate {}
+    - I didn’t like {}
+    - I don’t like {}
+
+- intent: favorite_genre
+  examples: |
+    - what’s your favorite genre?
+    - what kind of movies do you like?
+    - is there a specific type of movies you like?
+
+- intent: users_favorite_genre
+  examples: |
+    - I like/love action movies
+    - I like/love comedy movies
+    - I like/love drama
+    - I like/love romance
+    - I like/love sci-fi
+    - Anything that makes me laugh
+    - Anything that makes me cry
+    - I like sad movies
+    - I like funny movies
+    - I like documentaries
+
+- intent: least_favorite_genre
+  examples: |
+    - what’s your least favorite genre?
+    - what kind of movies do you hate?
+    - what types of movies would you never watch?
+
+- intent: users_least_favorite_genre
+  examples: |
+    - I don’t like/hate action movies
+    - I don’t like/hate comedy movies
+    - I don’t like/hate drama
+    - I don’t like/hate romance
+    - I don’t like/hate sci-fi
+
+- intent: favorite_actor
+  examples: |
+    - Do you have a favorite actor?
+    - Who’s your favorite actor?
+    - Who’s the best actor?
+    - Which actor is your favorite?
+    - Which actors do you like?
+
+- intent: users_favorite_actor
+  examples: |
+    - I love Will Smith
+    - I love Brad Pitt
+    - {} is my favorite actor
+    - {} is the best actor
