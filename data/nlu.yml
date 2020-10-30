@@ -104,9 +104,9 @@ nlu:
 
 - intent: users_movie_watching
   examples: |
-  - I love them
-  - of course I do
-  - me too
+    - I love them
+    - of course I do
+    - me too
 
 - intent: favorite_movie
   examples: |
