@@ -8,6 +8,12 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - movie_watching
+  - user_movie_watching
+  - question_favorite
+  - users_favorite
+  - question_least_favorite
+  - users_least_favorite
 
 responses:
   utter_greet:
