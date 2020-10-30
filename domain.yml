@@ -15,6 +15,11 @@ intents:
   - question_least_favorite
   - users_least_favorite
 
+entities:
+  - movie
+  - actor
+  - genre
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"

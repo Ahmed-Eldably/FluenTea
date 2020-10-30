@@ -125,20 +125,20 @@ nlu:
     
 - intent: users_favorite
   examples: |
-    - my favorite movie is [star wars] (movie)
-    - I love [the avengers] (movie)
-    - I like [inception] (movie)
-    - I enjoyed watching [men in black](movie)
-    - I love anything that [Will Smith](actor) is in
-    - I like [action movies](genre)
-    - I love [sci-fi](genre)
+    - my favorite movie is [star wars] ('movie')
+    - I love [the avengers] ('movie')
+    - I like [inception] ('movie')
+    - I enjoyed watching [men in black]('movie')
+    - I love anything that [Will Smith]('actor') is in
+    - I like [action movies]('genre')
+    - I love [sci-fi]('genre')
     - Anything that makes me laugh
     - Anything that makes me cry
-    - I like [sad movies](genre)
-    - I like [funny movies] (genre)
-    - I love [Brad Pitt](actor)
-    - [Chris Hemsworth](actor) is my favorite actor
-    - [Letitia Wright](actor) is the best actor
+    - I like [sad movies]('genre')
+    - I like [funny movies] ('genre')
+    - I love [Brad Pitt]('actor')
+    - [Chris Hemsworth]('actor') is my favorite actor
+    - [Letitia Wright]('actor') is the best actor
     
 
 - intent: question_least_favorite
@@ -152,9 +152,9 @@ nlu:
 
 - intent: users_least_favorite
   examples: |
-    - My least favorite movie is [justice league](movie)
-    - I hated [suicide squad](movie)
-    - I hate [escape room](movie)
-    - I didn’t like [the social dilemma](movie)
-    - I don’t like [romance](genre) movies
-    - I don’t hate [comedy] movies
+    - My least favorite movie is [justice league]('movie')
+    - I hated [suicide squad]('movie')
+    - I hate [escape room]('movie')
+    - I didn’t like [the social dilemma]('movie')
+    - I don’t like [romance]('genre') movies
+    - I don’t hate [comedy]('genre') movies
