@@ -30,6 +30,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - toodles
 
 - intent: affirm
   examples: |
@@ -90,3 +91,70 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: movie_watching
+  examples: |
+    - do you like watching movies?
+    - do you love watching movies?
+    - do you enjoy movies?
+    - do you like going to the cinema?
+    - do you go to the cinemas?
+    - do you watch movies?
+    - are you interested in watching movies?
+
+- intent: users_movie_watching
+  examples: |
+    - I love them
+    - of course I do
+    - me too
+
+
+- intent: question_favorite
+  examples: |
+    - what’s your favorite movie?
+    - what movies do you like?
+    - do you have a favorite movie?
+    - what do you like to watch?
+    - what’s your favorite genre?
+    - what kind of movies do you like?
+    - Do you have a favorite actor?
+    - Who’s your favorite actor?
+    - Who’s the best actor?
+    - Which actor is your favorite?
+    - Which actors do you like?
+    
+- intent: users_favorite
+  examples: |
+    - my favorite movie is [star wars] ('movie')
+    - I love [the avengers] ('movie')
+    - I like [inception] ('movie')
+    - I enjoyed watching [men in black]('movie')
+    - I love anything that [Will Smith]('actor') is in
+    - I like [action movies]('genre')
+    - I love [sci-fi]('genre')
+    - Anything that makes me laugh
+    - Anything that makes me cry
+    - I like [sad movies]('genre')
+    - I like [funny movies] ('genre')
+    - I love [Brad Pitt]('actor')
+    - [Chris Hemsworth]('actor') is my favorite actor
+    - [Letitia Wright]('actor') is the best actor
+    
+
+- intent: question_least_favorite
+  examples: |
+    - are there any movies you hate?
+    - what movies don't you like?
+    - what’s your least favorite movie?
+    - what’s your least favorite genre?
+    - what kind of movies do you hate?
+    - what types of movies would you never watch?
+
+- intent: users_least_favorite
+  examples: |
+    - My least favorite movie is [justice league]('movie')
+    - I hated [suicide squad]('movie')
+    - I hate [escape room]('movie')
+    - I didn’t like [the social dilemma]('movie')
+    - I don’t like [romance]('genre') movies
+    - I don’t hate [comedy]('genre') movies
