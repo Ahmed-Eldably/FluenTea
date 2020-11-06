@@ -111,10 +111,6 @@ nlu:
 
 - intent: question_favorite
   examples: |
-    - what’s your favorite movie?
-    - what movies do you like?
-    - do you have a favorite movie?
-    - what do you like to watch?
     - what’s your favorite genre?
     - what kind of movies do you like?
     - Do you have a favorite actor?
@@ -122,7 +118,12 @@ nlu:
     - Who’s the best actor?
     - Which actor is your favorite?
     - Which actors do you like?
-    
+- question_favorite_movie:
+  examples: |
+    - what’s your favorite movie?
+    - what movies do you like?
+    - do you have a favorite movie?
+    - what do you like to watch?
 - intent: users_favorite
   examples: |
     - my favorite movie is [star wars] ('movie')

@@ -51,13 +51,16 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_movie_watching:
-  - text: "I love watching movies! What about you?"
-  - text: "I watch movies all the time! How about you?"
+  - text: "I watch movies all the time!"
   - text: "Binge watching is my favorite thing to do!"
-  - text: "Movies are my favorite! What about you?"
+  - text: "Movies are my favorite!"
   - text: "Of course, I do! Who doesn’t?"
   - text: "Definitely! It’s the best thing to do!"
   - text: "Of course! Who doesn’t like sitting in front of a screen with a bowl of popcorn!"
+
+  utter_movie_watching_question:
+  - text: "Do you like watching movies?"
+  - text: "I love watching movies! What about you?"
 
   utter_favorite_movie:
   - text: "I love The Blind Side!"

@@ -28,3 +28,19 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: favorite movie path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_movie_watching_question
+  - intent: users_movie_watching
+  - intent: question_favorite_movie
+  - action: utter_favorite_movie
+  - intent: users_favorite
+    entities:
+    - movie: "Avengers"
+  - action: utter_users_favorite_movie
+  - action: utter_did_that_help
+  - action: affirm
+  - action: utter_goodbye
