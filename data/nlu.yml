@@ -111,14 +111,18 @@ nlu:
 
 - intent: question_favorite
   examples: |
-    - what’s your favorite genre?
-    - what kind of movies do you like?
     - Do you have a favorite actor?
     - Who’s your favorite actor?
     - Who’s the best actor?
     - Which actor is your favorite?
     - Which actors do you like?
-- question_favorite_movie:
+
+- intent: question_favorite_genre
+  examles: |
+    - what’s your favorite genre?
+    - what kind of movies do you like?
+
+- intent: question_favorite_movie
   examples: |
     - what’s your favorite movie?
     - what movies do you like?

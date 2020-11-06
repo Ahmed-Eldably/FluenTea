@@ -67,6 +67,12 @@ responses:
   - text: "My favorite movie is Hitch, what’s yours?"
   - text: "I love any movie Angelina Jolie is in!"
 
+  utter_ask_favorite_movie:
+  - text: what’s your favorite movie?
+  - text: what movies do you like?
+  - text: do you have a favorite movie?
+  - text: what do you like to watch?
+
   utter_users_favorite_movie:
   - text: "I love that movie!"
   - text: "I watched it a million times!"
@@ -98,6 +104,8 @@ responses:
   - text: "Same here!"
   - text: "Me too! They’re great!"
   - text: "Not sure I feel the same way."
+  utter_ask_favorite_genre:
+  - text: "What's your favorite genre?"
   
   utter_ least_favorite_genre:
   - text: "I don’t like sci-fi, do you?"
