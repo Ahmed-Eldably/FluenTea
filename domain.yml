@@ -12,6 +12,10 @@ intents:
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+  - text: "Hey! How are you today?"
+  - text: "Hello!"
+  - text: "Hi! What’s up?"
+  - text: "Yo! How’s it going?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -25,9 +29,84 @@ responses:
 
   utter_goodbye:
   - text: "Bye"
+  - text: "Goodbye!"
+  - text: "See ya!"
+  - text: "See you later!"
+  - text: "Talk to you soon!"
+  - text: "Talk to you later!"
+  - text: "Toodles!"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_movie_watching:
+  - text: "I love watching movies! What about you?"
+  - text: "I watch movies all the time! How about you?"
+  - text: "Binge watching is my favorite thing to do!"
+  - text: "Movies are my favorite! What about you?"
+  - text: "Of course, I do! Who doesn’t?"
+  - text: "Definitely! It’s the best thing to do!"
+  - text: "Of course! Who doesn’t like sitting in front of a screen with a bowl of popcorn!"
+
+  utter_favorite_movie:
+  - text: "I love The Blind Side!"
+  - text: "My favorite movie is Hitch, what’s yours?"
+  - text: "I love any movie Angelina Jolie is in!"
+
+  utter_users_favorite_movie:
+  - text: "I love that movie!"
+  - text: "I watched it a million times!"
+  - text: "It’s so good!"
+  - text: "It’s an amazing movie!"
+  - text: "BEST. MOVIE. EVERRRR!"
+
+  utter_least_favorite_movie:
+  - text: "I hated Cats! What’s your least favorite?"
+  - text: "I didn’t like La La Land. It was overrated. What’s yours?"
+  - text: "Silver Linings Playbook sucked. What movie did you not like?"
+
+  utter_users_least_favorite_movie:
+  - text: "Me too!"
+  - text: "Quite the opposite for me, I actually enjoyed it!"
+  - text: "Oh yeah! That movie sucked!"
+  - text: "It was bad, wasn’t it?"
+  - text: "I haven’t seen it, and now definitely won’t!"
+  - text: "I didn’t like it as well."
+
+  utter_ favorite_genre:
+  - text: "I love comedy! Laughter is the best medicine!"
+  - text: "Hmmm…. I enjoy tragic movies as long as I got a box of tissues."
+  - text: "Action movies are pretty entertaining. What do you think?"
+  - text: "I like watching all genres as long as the movie is good. What do you like to watch?"
+  
+  utter_users_favorite_genre:
+  - text: "Cool!"
+  - text: "Same here!"
+  - text: "Me too! They’re great!"
+  - text: "Not sure I feel the same way."
+  
+  utter_ least_favorite_genre:
+  - text: "I don’t like sci-fi, do you?"
+  - text: "I don’t like any movie that’s unrealistic."
+  - text: "I don’t always enjoy romance."
+
+  utter_ users_least_favorite_genre:
+  - text: "I understand that."
+  - text: "Yeah, it’s not the best genre."
+  - text: "Same!"
+  - text: "Oh no! Why not?"
+
+  utter_ favorite_actor:
+  - text: "Paul Rudd is the best!"
+  - text: "Angelina Jolie, who’s yours?"
+  - text: "So many! But if I had to pick one it would be Brad Pitt."
+  - text: "I love Kevin Hart! He’s hilarious!"
+
+  utter_users_favorite_actor:
+  - text: "One of the best!"
+  - text: "I’m a huge fan!!"
+  - text: "He/she is great!"
+
 
 session_config:
   session_expiration_time: 60
