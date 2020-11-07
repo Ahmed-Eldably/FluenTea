@@ -106,24 +106,26 @@ responses:
   - text: "Not sure I feel the same way."
   utter_ask_favorite_genre:
   - text: "What's your favorite genre?"
-  
-  utter_ least_favorite_genre:
+
+  utter_least_favorite_genre:
   - text: "I don’t like sci-fi, do you?"
   - text: "I don’t like any movie that’s unrealistic."
   - text: "I don’t always enjoy romance."
 
-  utter_ users_least_favorite_genre:
+  utter_users_least_favorite_genre:
   - text: "I understand that."
   - text: "Yeah, it’s not the best genre."
   - text: "Same!"
   - text: "Oh no! Why not?"
 
-  utter_ favorite_actor:
+  utter_favorite_actor:
   - text: "Paul Rudd is the best!"
-  - text: "Angelina Jolie, who’s yours?"
+  - text: "Angelina Jolie."
   - text: "So many! But if I had to pick one it would be Brad Pitt."
   - text: "I love Kevin Hart! He’s hilarious!"
-
+  utter_ask_favorite_actor:
+  - text: "Who's your favorite actor?"
+  
   utter_users_favorite_actor:
   - text: "One of the best!"
   - text: "I’m a huge fan!!"

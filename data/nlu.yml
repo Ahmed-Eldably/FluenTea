@@ -109,7 +109,7 @@ nlu:
     - me too
 
 
-- intent: question_favorite
+- intent: question_favorite_actor
   examples: |
     - Do you have a favorite actor?
     - Who’s your favorite actor?
@@ -118,7 +118,7 @@ nlu:
     - Which actors do you like?
 
 - intent: question_favorite_genre
-  examles: |
+  examples: |
     - what’s your favorite genre?
     - what kind of movies do you like?
 
@@ -128,6 +128,7 @@ nlu:
     - what movies do you like?
     - do you have a favorite movie?
     - what do you like to watch?
+
 - intent: users_favorite
   examples: |
     - my favorite movie is [star wars] ('movie')

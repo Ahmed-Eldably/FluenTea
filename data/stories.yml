@@ -2,32 +2,6 @@ version: "2.0"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
 
 - story: favorite movie path
   steps:
@@ -43,10 +17,44 @@ stories:
     - movie: "Avengers"
   - action: utter_users_favorite_movie
   - action: utter_did_that_help
-  - action: affirm
+  - intent: affirm
   - action: utter_goodbye
 
-  - story: favorite genre path
+- story: favorite genre path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_movie_watching_question
+  - intent: users_movie_watching
+  - intent: question_favorite_genre
+  - action: utter_favorite_genre
+  - action: utter_ask_favorite_genre
+  - intent: users_favorite
+    entities:
+    - movie: "Sci-Fi"
+  - action: utter_users_favorite_genre
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: favorite actor path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_movie_watching_question
+  - intent: users_movie_watching
+  - intent: question_favorite_actor
+  - action: utter_favorite_actor
+  - action: utter_ask_favorite_actor
+  - intent: users_favorite
+    entities:
+    - movie: "Brad Pitt"
+  - action: utter_users_favorite_actor
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: least favorite movie path
   steps:
   - intent: greet
   - action: utter_greet
@@ -61,4 +69,38 @@ stories:
   - action: utter_users_favorite_genre
   - action: utter_did_that_help
   - action: affirm
+  - action: utter_goodbye
+
+- story: least favorite genre path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_movie_watching_question
+  - intent: users_movie_watching
+  - intent: question_favorite_genre
+  - action: utter_favorite_genre
+  - action: utter_ask_favorite_genre
+  - intent: users_favorite
+    entities:
+    - movie: "Sci-Fi"
+  - action: utter_users_favorite_genre
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: least favorite actor path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_movie_watching_question
+  - intent: users_movie_watching
+  - intent: question_favorite_genre
+  - action: utter_favorite_genre
+  - action: utter_ask_favorite_genre
+  - intent: users_favorite
+    entities:
+    - movie: "Sci-Fi"
+  - action: utter_users_favorite_genre
+  - action: utter_did_that_help
+  - intent: affirm
   - action: utter_goodbye
