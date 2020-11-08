@@ -68,7 +68,7 @@ stories:
     - movie: "Sci-Fi"
   - action: utter_users_favorite_genre
   - action: utter_did_that_help
-  - action: affirm
+  - intent: affirm
   - action: utter_goodbye
 
 - story: least favorite genre path

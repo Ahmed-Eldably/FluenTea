@@ -93,7 +93,7 @@ responses:
   - text: "I haven’t seen it, and now definitely won’t!"
   - text: "I didn’t like it as well."
 
-  utter_ favorite_genre:
+  utter_favorite_genre:
   - text: "I love comedy! Laughter is the best medicine!"
   - text: "Hmmm…. I enjoy tragic movies as long as I got a box of tissues."
   - text: "Action movies are pretty entertaining. What do you think?"
